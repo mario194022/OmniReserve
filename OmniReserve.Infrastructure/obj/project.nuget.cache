@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mvKn/C6cIh8=",
+  "success": true,
+  "projectFilePath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/mario194022/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.12/microsoft.extensions.configuration.abstractions.10.0.12.nupkg.sha512",
+    "/home/mario194022/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.12/microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
+    "/home/mario194022/.nuget/packages/microsoft.extensions.primitives/10.0.12/microsoft.extensions.primitives.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}
