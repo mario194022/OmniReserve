@@ -7,6 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Llama a los métodos de extensión para inyectar las dependencias de otras capas
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 

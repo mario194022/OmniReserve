@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj": {}
+    "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj": {}
   },
   "projects": {
-    "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj": {
+    "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
+        "projectUniqueName": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
         "projectName": "OmniReserve.Api",
-        "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
+        "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
         "packagesPath": "/home/mario194022/.nuget/packages/",
-        "outputPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/obj/",
+        "outputPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mario194022/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj": {
-                "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj"
+              "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj": {
+                "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj"
               },
-              "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj": {
-                "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj"
+              "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj": {
+                "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj": {
+    "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj",
+        "projectUniqueName": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj",
         "projectName": "OmniReserve.Application",
-        "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj",
+        "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj",
         "packagesPath": "/home/mario194022/.nuget/packages/",
-        "outputPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/",
+        "outputPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mario194022/.nuget/NuGet/NuGet.Config"
@@ -100,8 +100,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj": {
-                "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj"
+              "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj": {
+                "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj": {
+    "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj",
+        "projectUniqueName": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj",
         "projectName": "OmniReserve.Domain",
-        "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj",
+        "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj",
         "packagesPath": "/home/mario194022/.nuget/packages/",
-        "outputPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/",
+        "outputPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mario194022/.nuget/NuGet/NuGet.Config"
@@ -204,14 +204,14 @@
         }
       }
     },
-    "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj": {
+    "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj",
+        "projectUniqueName": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj",
         "projectName": "OmniReserve.Infrastructure",
-        "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj",
+        "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj",
         "packagesPath": "/home/mario194022/.nuget/packages/",
-        "outputPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/obj/",
+        "outputPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mario194022/.nuget/NuGet/NuGet.Config"
@@ -226,8 +226,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj": {
-                "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj"
+              "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj": {
+                "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj"
               }
             }
           }
