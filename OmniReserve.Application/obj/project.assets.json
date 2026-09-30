@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "OmniReserve.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/OmniReserve.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OmniReserve.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OmniReserve.Domain/1.0.0": {
+      "type": "project",
+      "path": "../OmniReserve.Domain/OmniReserve.Domain.csproj",
+      "msbuildProject": "../OmniReserve.Domain/OmniReserve.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "OmniReserve.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/mario194022/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj",
+      "projectName": "OmniReserve.Application",
+      "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj",
+      "packagesPath": "/home/mario194022/.nuget/packages/",
+      "outputPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/mario194022/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj": {
+              "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/OmniReserve.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/var/home/mario194022/.dotnet/sdk/8.0.424/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
