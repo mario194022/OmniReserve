@@ -409,11 +409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
+      "projectUniqueName": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
       "projectName": "OmniReserve.Api",
-      "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
+      "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
       "packagesPath": "/home/mario194022/.nuget/packages/",
-      "outputPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/obj/",
+      "outputPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mario194022/.nuget/NuGet/NuGet.Config"
@@ -428,11 +428,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj": {
-              "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj"
+            "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj": {
+              "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Application/OmniReserve.Application.csproj"
             },
-            "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj": {
-              "projectPath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj"
+            "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj": {
+              "projectPath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Infrastructure/OmniReserve.Infrastructure.csproj"
             }
           }
         }

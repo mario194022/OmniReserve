@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "17FqLoRY5tY=",
+  "dgSpecHash": "DEDL1s849lk=",
   "success": true,
-  "projectFilePath": "/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
+  "projectFilePath": "/var/home/mario194022/OmniReservecompleto/OmniReserve/OmniReserve.Api/OmniReserve.Api.csproj",
   "expectedPackageFiles": [
     "/home/mario194022/.nuget/packages/microsoft.extensions.apidescription.server/8.0.0/microsoft.extensions.apidescription.server.8.0.0.nupkg.sha512",
     "/home/mario194022/.nuget/packages/microsoft.openapi/2.7.5/microsoft.openapi.2.7.5.nupkg.sha512",
