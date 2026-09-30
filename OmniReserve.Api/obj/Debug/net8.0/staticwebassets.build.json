@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VF99dJxuzj7JEOhZu2ha00LMSTtbhtq5s8G1x2ldyMg=",
+  "Source": "OmniReserve.Api",
+  "BasePath": "_content/OmniReserve.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
