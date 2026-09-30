@@ -1,4 +1,3 @@
-
 .
 ├── OmniReserve.Api
 │   ├── appsettings.Development.json
@@ -72,8 +71,6 @@
 │   │           ├── OmniReserve.Domain.dll
 │   │           └── OmniReserve.Domain.pdb
 │   ├── Class1.cs
-│   ├── Common
-│   │   └── Interfaces
 │   ├── obj
 │   │   ├── Debug
 │   │   │   └── net8.0
@@ -172,4 +169,4 @@
 │   └── Persistence
 └── OmniReserve.sln
 
-51 directories, 121 files
+49 directories, 121 files
