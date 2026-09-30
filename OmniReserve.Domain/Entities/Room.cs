@@ -13,10 +13,10 @@ public class Room
     public Room(string roomNumber, RoomType type, decimal pricePerNight)
     {
         Id = Guid.NewGuid();
-        RoomNumber = !string.IsNullOrWhiteSpace(roomNumber) ? roomNumber : throw new ArgumentNullException(nameof(roomNumber));
+        RoomNumber = roomNumber;
         Type = type;
-        PricePerNight = pricePerNight >= 0 ? pricePerNight : throw new ArgumentException("Price cannot be negative.", nameof(pricePerNight));
-        IsAvailable = true; // Por defecto
+        PricePerNight = pricePerNight;
+        IsAvailable = true;
     }
 
     public void MarkAsUnavailable()
