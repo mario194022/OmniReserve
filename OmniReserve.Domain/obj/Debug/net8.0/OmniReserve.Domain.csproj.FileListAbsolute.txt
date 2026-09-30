@@ -1,0 +1,11 @@
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/bin/Debug/net8.0/OmniReserve.Domain.deps.json
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/bin/Debug/net8.0/OmniReserve.Domain.dll
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/bin/Debug/net8.0/OmniReserve.Domain.pdb
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/Debug/net8.0/OmniReserve.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/Debug/net8.0/OmniReserve.Domain.AssemblyInfoInputs.cache
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/Debug/net8.0/OmniReserve.Domain.AssemblyInfo.cs
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/Debug/net8.0/OmniReserve.Domain.csproj.CoreCompileInputs.cache
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/Debug/net8.0/OmniReserve.Domain.dll
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/Debug/net8.0/refint/OmniReserve.Domain.dll
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/Debug/net8.0/OmniReserve.Domain.pdb
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Domain/obj/Debug/net8.0/ref/OmniReserve.Domain.dll
