@@ -1,0 +1,175 @@
+
+.
+├── OmniReserve.Api
+│   ├── appsettings.Development.json
+│   ├── appsettings.json
+│   ├── bin
+│   │   └── Debug
+│   │       └── net8.0
+│   │           ├── appsettings.Development.json
+│   │           ├── appsettings.json
+│   │           ├── Microsoft.OpenApi.dll
+│   │           ├── OmniReserve.Api
+│   │           ├── OmniReserve.Api.deps.json
+│   │           ├── OmniReserve.Api.dll
+│   │           ├── OmniReserve.Api.pdb
+│   │           ├── OmniReserve.Api.runtimeconfig.json
+│   │           ├── OmniReserve.Application.dll
+│   │           ├── OmniReserve.Application.pdb
+│   │           ├── OmniReserve.Domain.dll
+│   │           ├── OmniReserve.Domain.pdb
+│   │           ├── OmniReserve.Infrastructure.dll
+│   │           ├── OmniReserve.Infrastructure.pdb
+│   │           ├── Swashbuckle.AspNetCore.Swagger.dll
+│   │           ├── Swashbuckle.AspNetCore.SwaggerGen.dll
+│   │           └── Swashbuckle.AspNetCore.SwaggerUI.dll
+│   ├── Controllers
+│   ├── Middlewares
+│   ├── obj
+│   │   ├── Debug
+│   │   │   └── net8.0
+│   │   │       ├── apphost
+│   │   │       ├── OmniRese.50C9C588.Up2Date
+│   │   │       ├── OmniReserve.Api.AssemblyInfo.cs
+│   │   │       ├── OmniReserve.Api.AssemblyInfoInputs.cache
+│   │   │       ├── OmniReserve.Api.assets.cache
+│   │   │       ├── OmniReserve.Api.csproj.AssemblyReference.cache
+│   │   │       ├── OmniReserve.Api.csproj.CoreCompileInputs.cache
+│   │   │       ├── OmniReserve.Api.csproj.FileListAbsolute.txt
+│   │   │       ├── OmniReserve.Api.dll
+│   │   │       ├── OmniReserve.Api.GeneratedMSBuildEditorConfig.editorconfig
+│   │   │       ├── OmniReserve.Api.genruntimeconfig.cache
+│   │   │       ├── OmniReserve.Api.GlobalUsings.g.cs
+│   │   │       ├── OmniReserve.Api.MvcApplicationPartsAssemblyInfo.cache
+│   │   │       ├── OmniReserve.Api.MvcApplicationPartsAssemblyInfo.cs
+│   │   │       ├── OmniReserve.Api.pdb
+│   │   │       ├── ref
+│   │   │       │   └── OmniReserve.Api.dll
+│   │   │       ├── refint
+│   │   │       │   └── OmniReserve.Api.dll
+│   │   │       ├── staticwebassets
+│   │   │       │   ├── msbuild.buildMultiTargeting.OmniReserve.Api.props
+│   │   │       │   ├── msbuild.build.OmniReserve.Api.props
+│   │   │       │   └── msbuild.buildTransitive.OmniReserve.Api.props
+│   │   │       └── staticwebassets.build.json
+│   │   ├── OmniReserve.Api.csproj.nuget.dgspec.json
+│   │   ├── OmniReserve.Api.csproj.nuget.g.props
+│   │   ├── OmniReserve.Api.csproj.nuget.g.targets
+│   │   ├── project.assets.json
+│   │   └── project.nuget.cache
+│   ├── OmniReserve.Api.csproj
+│   ├── OmniReserve.Api.http
+│   ├── Program.cs
+│   └── Properties
+│       └── launchSettings.json
+├── OmniReserve.Application
+│   ├── bin
+│   │   └── Debug
+│   │       └── net8.0
+│   │           ├── OmniReserve.Application.deps.json
+│   │           ├── OmniReserve.Application.dll
+│   │           ├── OmniReserve.Application.pdb
+│   │           ├── OmniReserve.Domain.dll
+│   │           └── OmniReserve.Domain.pdb
+│   ├── Class1.cs
+│   ├── Common
+│   │   └── Interfaces
+│   ├── obj
+│   │   ├── Debug
+│   │   │   └── net8.0
+│   │   │       ├── OmniRese.A27A30A3.Up2Date
+│   │   │       ├── OmniReserve.Application.AssemblyInfo.cs
+│   │   │       ├── OmniReserve.Application.AssemblyInfoInputs.cache
+│   │   │       ├── OmniReserve.Application.assets.cache
+│   │   │       ├── OmniReserve.Application.csproj.AssemblyReference.cache
+│   │   │       ├── OmniReserve.Application.csproj.CoreCompileInputs.cache
+│   │   │       ├── OmniReserve.Application.csproj.FileListAbsolute.txt
+│   │   │       ├── OmniReserve.Application.dll
+│   │   │       ├── OmniReserve.Application.GeneratedMSBuildEditorConfig.editorconfig
+│   │   │       ├── OmniReserve.Application.GlobalUsings.g.cs
+│   │   │       ├── OmniReserve.Application.pdb
+│   │   │       ├── ref
+│   │   │       │   └── OmniReserve.Application.dll
+│   │   │       └── refint
+│   │   │           └── OmniReserve.Application.dll
+│   │   ├── OmniReserve.Application.csproj.nuget.dgspec.json
+│   │   ├── OmniReserve.Application.csproj.nuget.g.props
+│   │   ├── OmniReserve.Application.csproj.nuget.g.targets
+│   │   ├── project.assets.json
+│   │   └── project.nuget.cache
+│   ├── OmniReserve.Application.csproj
+│   ├── Reservations
+│   ├── Rooms
+│   └── Users
+├── OmniReserve.Domain
+│   ├── bin
+│   │   └── Debug
+│   │       └── net8.0
+│   │           ├── OmniReserve.Domain.deps.json
+│   │           ├── OmniReserve.Domain.dll
+│   │           └── OmniReserve.Domain.pdb
+│   ├── Class1.cs
+│   ├── Entities
+│   ├── Enums
+│   ├── Exceptions
+│   ├── obj
+│   │   ├── Debug
+│   │   │   └── net8.0
+│   │   │       ├── OmniReserve.Domain.AssemblyInfo.cs
+│   │   │       ├── OmniReserve.Domain.AssemblyInfoInputs.cache
+│   │   │       ├── OmniReserve.Domain.assets.cache
+│   │   │       ├── OmniReserve.Domain.csproj.CoreCompileInputs.cache
+│   │   │       ├── OmniReserve.Domain.csproj.FileListAbsolute.txt
+│   │   │       ├── OmniReserve.Domain.dll
+│   │   │       ├── OmniReserve.Domain.GeneratedMSBuildEditorConfig.editorconfig
+│   │   │       ├── OmniReserve.Domain.GlobalUsings.g.cs
+│   │   │       ├── OmniReserve.Domain.pdb
+│   │   │       ├── ref
+│   │   │       │   └── OmniReserve.Domain.dll
+│   │   │       └── refint
+│   │   │           └── OmniReserve.Domain.dll
+│   │   ├── OmniReserve.Domain.csproj.nuget.dgspec.json
+│   │   ├── OmniReserve.Domain.csproj.nuget.g.props
+│   │   ├── OmniReserve.Domain.csproj.nuget.g.targets
+│   │   ├── project.assets.json
+│   │   └── project.nuget.cache
+│   └── OmniReserve.Domain.csproj
+├── OmniReserve.Infrastructure
+│   ├── Authentication
+│   ├── bin
+│   │   └── Debug
+│   │       └── net8.0
+│   │           ├── OmniReserve.Domain.dll
+│   │           ├── OmniReserve.Domain.pdb
+│   │           ├── OmniReserve.Infrastructure.deps.json
+│   │           ├── OmniReserve.Infrastructure.dll
+│   │           └── OmniReserve.Infrastructure.pdb
+│   ├── Class1.cs
+│   ├── obj
+│   │   ├── Debug
+│   │   │   └── net8.0
+│   │   │       ├── OmniRese.3760EFE2.Up2Date
+│   │   │       ├── OmniReserve.Infrastructure.AssemblyInfo.cs
+│   │   │       ├── OmniReserve.Infrastructure.AssemblyInfoInputs.cache
+│   │   │       ├── OmniReserve.Infrastructure.assets.cache
+│   │   │       ├── OmniReserve.Infrastructure.csproj.AssemblyReference.cache
+│   │   │       ├── OmniReserve.Infrastructure.csproj.CoreCompileInputs.cache
+│   │   │       ├── OmniReserve.Infrastructure.csproj.FileListAbsolute.txt
+│   │   │       ├── OmniReserve.Infrastructure.dll
+│   │   │       ├── OmniReserve.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+│   │   │       ├── OmniReserve.Infrastructure.GlobalUsings.g.cs
+│   │   │       ├── OmniReserve.Infrastructure.pdb
+│   │   │       ├── ref
+│   │   │       │   └── OmniReserve.Infrastructure.dll
+│   │   │       └── refint
+│   │   │           └── OmniReserve.Infrastructure.dll
+│   │   ├── OmniReserve.Infrastructure.csproj.nuget.dgspec.json
+│   │   ├── OmniReserve.Infrastructure.csproj.nuget.g.props
+│   │   ├── OmniReserve.Infrastructure.csproj.nuget.g.targets
+│   │   ├── project.assets.json
+│   │   └── project.nuget.cache
+│   ├── OmniReserve.Infrastructure.csproj
+│   └── Persistence
+└── OmniReserve.sln
+
+51 directories, 121 files
