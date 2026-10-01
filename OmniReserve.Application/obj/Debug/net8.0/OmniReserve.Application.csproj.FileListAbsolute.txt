@@ -1,0 +1,15 @@
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/bin/Debug/net8.0/OmniReserve.Application.deps.json
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/bin/Debug/net8.0/OmniReserve.Application.dll
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/bin/Debug/net8.0/OmniReserve.Application.pdb
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/bin/Debug/net8.0/OmniReserve.Domain.dll
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/bin/Debug/net8.0/OmniReserve.Domain.pdb
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/OmniReserve.Application.csproj.AssemblyReference.cache
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/OmniReserve.Application.GeneratedMSBuildEditorConfig.editorconfig
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/OmniReserve.Application.AssemblyInfoInputs.cache
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/OmniReserve.Application.AssemblyInfo.cs
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/OmniReserve.Application.csproj.CoreCompileInputs.cache
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/OmniRese.A27A30A3.Up2Date
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/OmniReserve.Application.dll
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/refint/OmniReserve.Application.dll
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/OmniReserve.Application.pdb
+/var/home/mario194022/OmniReserveTareas/OmniReserve/OmniReserve.Application/obj/Debug/net8.0/ref/OmniReserve.Application.dll
