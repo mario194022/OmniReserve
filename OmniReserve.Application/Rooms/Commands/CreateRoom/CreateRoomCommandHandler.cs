@@ -7,10 +7,12 @@ public class CreateRoomCommandHandler : IRequestHandler<CreateRoomCommand, Guid>
 {
     public Task<Guid> Handle(CreateRoomCommand request, CancellationToken cancellationToken)
     {
-        // Instanciamos el objeto Room del Dominio usando los datos del comando
+        // Se instancia la entidad de dominio con las reglas dictadas en el constructor
         var room = new Room(request.RoomNumber, request.Type, request.PricePerNight);
-
-        // Retornamos el ID generado (a futuro se persistirá mediante EF Core)
+        
+        // Simulación: aquí se guardaría en base de datos.
+        
+        // Se retorna el Guid
         return Task.FromResult(room.Id);
     }
 }
