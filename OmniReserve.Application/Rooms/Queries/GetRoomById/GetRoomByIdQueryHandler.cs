@@ -6,12 +6,12 @@ public class GetRoomByIdQueryHandler : IRequestHandler<GetRoomByIdQuery, RoomRes
 {
     public Task<RoomResponseDto> Handle(GetRoomByIdQuery request, CancellationToken cancellationToken)
     {
-        // Simulación temporal: Retornamos un DTO estático utilizando el ID solicitado
+        // Se simula la recuperación desde la base de datos transformándolo inmediatamente a DTO
         var response = new RoomResponseDto(
-            request.RoomId,
-            "101",
-            "Single",
-            120.00m,
+            request.RoomId, 
+            "101", 
+            "Single", 
+            150.00m, 
             true
         );
 
