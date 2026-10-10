@@ -1,6 +1,7 @@
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using OmniReserve.Application.Common.Exceptions;
+using OmniReserve.Domain.Exceptions;
 
 namespace OmniReserve.Api.Middlewares;
 
@@ -41,7 +42,6 @@ public class GlobalExceptionHandlingMiddleware
                 Detail = "Se enviaron datos inválidos."
             };
             
-            // Inyectamos el diccionario de errores producido por FluentValidation
             validationProblem.Extensions.Add("errors", validationException.Errors);
 
             context.Response.ContentType = "application/problem+json";
@@ -51,7 +51,25 @@ public class GlobalExceptionHandlingMiddleware
             return;
         }
 
-        // 2. Manejo Genérico: Errores Graves / No controlados
+        // 2. Interceptando Errores Puros del Negocio (DomainException)
+        else if (exception is DomainException domainException)
+        {
+            var domainProblem = new ProblemDetails
+            {
+                Status = StatusCodes.Status400BadRequest,
+                Title = "Error de Dominio",
+                Type = "https://datatracker.ietf.org/doc/html/rfc7231#section-6.5.1",
+                Detail = domainException.Message
+            };
+
+            context.Response.ContentType = "application/problem+json";
+            context.Response.StatusCode = StatusCodes.Status400BadRequest;
+            
+            await context.Response.WriteAsync(JsonSerializer.Serialize(domainProblem));
+            return;
+        }
+
+        // 3. Manejo Genérico: Errores Graves / No controlados
         var genericProblem = new ProblemDetails
         {
             Status = StatusCodes.Status500InternalServerError,
