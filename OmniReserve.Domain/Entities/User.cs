@@ -1,27 +1,24 @@
-using OmniReserve.Domain.Enums;
-
 namespace OmniReserve.Domain.Entities;
 
 public class User
 {
-    public Guid Id { get; private set; }
-    public string FirstName { get; private set; }
-    public string LastName { get; private set; }
-    public string Email { get; private set; }
-    public string PasswordHash { get; private set; }
-    public Role Role { get; private set; }
+    public Guid Id { get; private set; } = Guid.NewGuid();
+    public string Email { get; private set; } = null!;
+    public string FirstName { get; private set; } = null!;
+    public string LastName { get; private set; } = null!;
+    public string PasswordHash { get; private set; } = null!;
+    public string Role { get; private set; } = "Customer";
 
-    public User(string firstName, string lastName, string email, string passwordHash, Role role)
+    // Propiedad de Navegación de Colección
+    public ICollection<Reservation> Reservations { get; private set; } = new List<Reservation>();
+
+    private User() { }
+
+    public User(string email, string firstName, string lastName, string passwordHash, string role = "Customer")
     {
-        if (string.IsNullOrWhiteSpace(firstName)) throw new ArgumentNullException(nameof(firstName));
-        if (string.IsNullOrWhiteSpace(lastName)) throw new ArgumentNullException(nameof(lastName));
-        if (string.IsNullOrWhiteSpace(email)) throw new ArgumentNullException(nameof(email));
-        if (string.IsNullOrWhiteSpace(passwordHash)) throw new ArgumentNullException(nameof(passwordHash));
-
-        Id = Guid.NewGuid();
+        Email = email;
         FirstName = firstName;
         LastName = lastName;
-        Email = email;
         PasswordHash = passwordHash;
         Role = role;
     }

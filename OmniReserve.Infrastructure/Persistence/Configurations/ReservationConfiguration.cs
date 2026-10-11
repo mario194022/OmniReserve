@@ -31,5 +31,17 @@ public class ReservationConfiguration : IEntityTypeConfiguration<Reservation>
         builder.Property(r => r.Status)
             .IsRequired()
             .HasConversion<string>();
+
+        // Relación Uno a Muchos con Room
+        builder.HasOne(reservation => reservation.Room)
+               .WithMany(room => room.Reservations)
+               .HasForeignKey(reservation => reservation.RoomId)
+               .OnDelete(DeleteBehavior.Restrict);
+
+        // Relación Uno a Muchos con User
+        builder.HasOne(reservation => reservation.User)
+               .WithMany(user => user.Reservations)
+               .HasForeignKey(reservation => reservation.UserId)
+               .OnDelete(DeleteBehavior.Restrict);
     }
 }
